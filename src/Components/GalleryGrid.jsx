@@ -1,16 +1,16 @@
 import React, { useState } from "react";
-import gallery1 from "../assets/photos/gallery1.jpg";
-import gallery2 from "../assets/photos/gallery2.jpg";
-import gallery3 from "../assets/photos/gallery3.jpg";
-import gallery4 from "../assets/photos/gallery4.jpg";
-import gallery5 from "../assets/photos/gallery5.jpg";
-import gallery6 from "../assets/photos/gallery6.jpg";
-import gallery7 from "../assets/photos/gallery7.jpg";
-import gallery8 from "../assets/photos/gallery8.jpg";
-import gallery9 from "../assets/photos/gallery9.jpg";
-import gallery10 from "../assets/photos/gallery10.jpg";
-import gallery11 from "../assets/photos/gallery11.jpg";
-import gallery12 from "../assets/photos/gallery12.jpg";
+import gallery1 from "../assets/Photos/gallery1.jpg";
+import gallery2 from "../assets/Photos/gallery2.jpg";
+import gallery3 from "../assets/Photos/gallery3.jpg";
+import gallery4 from "../assets/Photos/gallery4.jpg";
+import gallery5 from "../assets/Photos/gallery5.jpg";
+import gallery6 from "../assets/Photos/gallery6.jpg";
+import gallery7 from "../assets/Photos/gallery7.jpg";
+import gallery8 from "../assets/Photos/gallery8.jpg";
+import gallery9 from "../assets/Photos/gallery9.jpg";
+import gallery10 from "../assets/Photos/gallery10.jpg";
+import gallery11 from "../assets/Photos/gallery11.jpg";
+import gallery12 from "../assets/Photos/gallery12.jpg";
 
 const GalleryGrid = () => {
   const images = [
@@ -26,7 +26,6 @@ const GalleryGrid = () => {
     gallery10,
     gallery11,
     gallery12,
-    
   ];
 
   const [selectedImage, setSelectedImage] = useState(null);

@@ -3,7 +3,7 @@ import Hero from "../Components/Hero";
 import butterChickenImg from "../assets/Photos/butterChicken.jpg";
 import GalleryGrid from "../Components/GalleryGrid";
 import Cta from "../Components/Cta";
-import ctaImg from "../assets/photos/cta.jpg";
+import ctaImg from "../assets/Photos/cta.jpg";
 
 const Gallery = () => {
   return (

@@ -2,11 +2,11 @@ import React from "react";
 import Hero from "../Components/Hero";
 import FoodSection from "../Components/FoodSection";
 import TopListMenu from "../Components/TopListMenu";
-import backgroundImage from "../assets/photos/pancakes.jpg";
+import backgroundImage from "../assets/Photos/pancakes.jpg";
 import momoImg from "../assets/Photos/momo.jpg";
 import Cta from "../Components/Cta";
 
-import ctaImg from "../assets/photos/cta.jpg";
+import ctaImg from "../assets/Photos/cta.jpg";
 
 const Home = () => {
   return (

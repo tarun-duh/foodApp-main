@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import burgerImg from "../assets/photos/burger.jpg";
-import pizzaImg from "../assets/photos/pizza.jpg";
-import pastaImg from "../assets/photos/pasta.jpg";
-import shawarmaImg from "../assets/photos/shawarma.jpg";
-import tacosImg from "../assets/photos/tacos.jpg";
-import noodlesImg from "../assets/photos/noodles.jpg";
-
+import burgerImg from "../assets/Photos/burger.jpg";
+import pizzaImg from "../assets/Photos/pizza.jpg";
+import pastaImg from "../assets/Photos/pasta.jpg";
+import shawarmaImg from "../assets/Photos/shawarma.jpg";
+import tacosImg from "../assets/Photos/tacos.jpg";
+import noodlesImg from "../assets/Photos/noodles.jpg";
 
 const dishes = [
   {
@@ -15,7 +14,7 @@ const dishes = [
     description: "White plate with dried shrimps",
     rating: 9.1,
     price: 325,
-    image: burgerImg, 
+    image: burgerImg,
   },
   {
     id: 2,
@@ -23,7 +22,7 @@ const dishes = [
     description: "Noodles spicy boil with seafood and pork in hot pot",
     rating: 9.2,
     price: 455,
-    image: pizzaImg 
+    image: pizzaImg,
   },
   {
     id: 3,
@@ -31,7 +30,7 @@ const dishes = [
     description: "Noodles prawn spicy soup",
     rating: 9.0,
     price: 365,
-    image: pastaImg //
+    image: pastaImg, //
   },
   {
     id: 4,
@@ -39,7 +38,7 @@ const dishes = [
     description: "Noodles prawn spicy soup",
     rating: 8.5,
     price: 255,
-    image: shawarmaImg //
+    image: shawarmaImg, //
   },
   {
     id: 5,
@@ -47,7 +46,7 @@ const dishes = [
     description: "Noodles prawn spicy soup",
     rating: 8.7,
     price: 235,
-    image: tacosImg
+    image: tacosImg,
   },
   {
     id: 6,
@@ -55,20 +54,26 @@ const dishes = [
     description: "Noodles prawn spicy soup",
     rating: 8.5,
     price: 365,
-    image: noodlesImg
+    image: noodlesImg,
   },
 ];
 
 const DishCard = ({ dish }) => {
   return (
     <div className="bg-white rounded-3xl shadow-md hover:shadow-xl transition-shadow duration-300 p-4 flex flex-col items-center text-center w-full max-w-[280px]">
-        <Link to={`/order`} className="flex flex-col items-center">
-      <img src={dish.image} alt={dish.title} className="w-32 h-32 object-cover rounded-full shadow mb-4" />
-      <div className="text-yellow-500 font-semibold text-lg">★ {dish.rating}</div>
-      <h3 className="text-xl font-bold mt-1 mb-1">{dish.title}</h3>
-      <p className="text-gray-500 text-sm mb-2">{dish.description}</p>
-      <div className="text-black font-bold text-lg">₹{dish.price}</div>
-        </Link>
+      <Link to={`/order`} className="flex flex-col items-center">
+        <img
+          src={dish.image}
+          alt={dish.title}
+          className="w-32 h-32 object-cover rounded-full shadow mb-4"
+        />
+        <div className="text-yellow-500 font-semibold text-lg">
+          ★ {dish.rating}
+        </div>
+        <h3 className="text-xl font-bold mt-1 mb-1">{dish.title}</h3>
+        <p className="text-gray-500 text-sm mb-2">{dish.description}</p>
+        <div className="text-black font-bold text-lg">₹{dish.price}</div>
+      </Link>
     </div>
   );
 };

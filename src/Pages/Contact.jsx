@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import Hero from "../Components/Hero";
-import takeout from "../assets/photos/takeout.jpg";
+import takeout from "../assets/Photos/takeout.jpg";
 import ContactInfo from "../Components/ContactInfo";
 import Form from "../Components/Form";
 

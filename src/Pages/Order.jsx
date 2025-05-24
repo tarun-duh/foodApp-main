@@ -7,7 +7,7 @@ import { useCart } from "../ContextApi/CartContext"; // adjust path if needed
 import CartBar from "../Components/CartBar";
 import burgerIMg from "../assets/Photos/burgers.jpg";
 import Cta from "../Components/Cta";
-import ctaImg from "../assets/photos/cta.jpg";
+import ctaImg from "../assets/Photos/cta.jpg";
 import burger from "../assets/Photos/burger.jpg";
 
 const Order = () => {
