@@ -26,6 +26,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/success" element={<SuccessPage />} />
           <Route path="/orders" element={<OrderHistory />} />
+          <Route path="/success" element={<SuccessPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
